@@ -66,19 +66,16 @@
 // // console.log(Boolean(""));
 // // console.log(Boolean(Number("Talabér")));
 
-
 // // const kor = 18;
 
 // // if (kor === 18) {
 // //   console.log("Most lettél nagykorú");
-// // } 
-
+// // }
 
 // // console.log(18===18)
 // // console.log(18==18)
 // // console.log(18==="18")
 // // console.log(18=="18")
-
 
 // const kedvenc = prompt("Mi a kedvenc számod?");
 // console.log(kedvenc, typeof kedvenc);
@@ -109,14 +106,49 @@
 // console.log(!a && b );
 // console.log(a && !b );
 
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
+// const isTired = false;
+// const shouldDrive = hasDriversLicense && hasGoodVision && !isTired;
 
-const hasDriversLicense = true;
-const hasGoodVision = true;
-const isTired = false;
-const shouldDrive = hasDriversLicense && hasGoodVision && !isTired;
+// if (shouldDrive) {
+//   console.log("A sofőr képes vezetni");
+// } else {
+//   console.log("nem vezethet");
+// }
 
-if (shouldDrive) {
-  console.log("A sofőr képes vezetni");
-} else {
-  console.log("nem vezethet");
-}
+// const day = "hétfő";
+
+// switch (day) {
+//   case "hétfő":
+//     console.log("kezdődik a hét dupla tj óra");
+//     break;
+//   case "kedd":
+//     console.log("dupla adatbázis óra");
+//     break;
+//   case "szerda":
+//     console.log("dupla magyar óra");
+//     break;
+//   case "csütörtök":
+//     console.log("dupla back-end óra");
+//     break;
+//   case "péntek":
+//     console.log("dupla tesztelés óra");
+//     break;
+//   case "szombat":
+//     console.log("dupla pihenés óra");
+//     break;
+//   case "vasárnap":
+//     console.log("dupla tervezés óra");
+//     break;
+//   default:
+//     console.log("Érvénytelen nap");
+// }
+
+
+const age = 23;
+
+age >= 18 ? console.log("Nagykorú vagy") : console.log("Kiskorú vagy");
+const drink = age >= 18 ? "sör" : "üdítő";
+
+console.log(drink);
